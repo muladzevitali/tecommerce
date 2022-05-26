@@ -13,6 +13,6 @@ schema_view = get_schema_view(openapi_info, public=True, permission_classes=[per
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('auth/', include('apps.user.urls')),
+    path('rest/auth/', include('apps.user.urls')),
     path('rest/swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]

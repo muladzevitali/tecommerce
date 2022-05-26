@@ -1,0 +1,26 @@
+[
+  {
+    "model": "user.city",
+    "fields": {
+      "name": "თბილისი"
+    }
+  },
+  {
+    "model": "user.city",
+    "fields": {
+      "name": "ხაშური"
+    }
+  },
+  {
+    "model": "user.city",
+    "fields": {
+      "name": "ბათუმი"
+    }
+  },
+  {
+    "model": "user.city",
+    "fields": {
+      "name": "თელავი"
+    }
+  }
+]
