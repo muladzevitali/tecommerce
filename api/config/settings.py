@@ -14,6 +14,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
+    'drf_yasg',
+    "apps.user"
 ]
 
 MIDDLEWARE = [
@@ -52,6 +55,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'media/db/db.sqlite3',
     }
 }
+SWAGGER_SETTINGS = {
+    'VALIDATOR_URL': 'http://localhost:8000',
+}
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -71,9 +77,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ],
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'app_auth.authentication.KongAuthentication',
-    ),
     'DEFAULT_PARSER_CLASSES': (
         'djangorestframework_camel_case.parser.CamelCaseJSONParser',
     ),
@@ -81,6 +84,10 @@ REST_FRAMEWORK = {
         'djangorestframework_camel_case.render.CamelCaseJSONRenderer',
         'djangorestframework_camel_case.render.CamelCaseBrowsableAPIRenderer',
     ),
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.BasicAuthentication'
+    ],
     'JSON_UNDERSCOREIZE': {
         'no_underscore_before_number': True,
     },
@@ -99,3 +106,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = "user.User"
