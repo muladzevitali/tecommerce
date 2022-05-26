@@ -147,7 +147,7 @@ __migrations/*
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+api/static
 # Pyre type checker
 .pyre/
 
