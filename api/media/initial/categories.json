@@ -1,0 +1,130 @@
+[
+  {
+    "model": "store.Category",
+    "pk": 1,
+    "fields": {
+      "name": "კომპიუტერული და საოფისე ტექნიკა",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 2,
+    "fields": {
+      "name": "პერსონალური კომპიუტერები, ნოუთბუქები და აქსესუარები",
+      "parent": 1
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 3,
+    "fields": {
+      "name": "ტაბლეტები და აქსესუარები ",
+      "parent": 1
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 4,
+    "fields": {
+      "name": "PC კომპონენტები",
+      "parent": 1
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 5,
+    "fields": {
+      "name": "მონიტორები და პროექტორები",
+      "parent": 1
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 6,
+    "fields": {
+      "name": "კომპიუტერის აქსესუარები ",
+      "parent": 1
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 7,
+    "fields": {
+      "name": "სტაციონალური ტელეფონები",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 8,
+    "fields": {
+      "name": "სმარტფონები",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 9,
+    "fields": {
+      "name": "სმარტ საათები და ფიტნეს ტრეკერები",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 10,
+    "fields": {
+      "name": "სმარტ საათის აქსესუარები",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 11,
+    "fields": {
+      "name": "სმარტფონის სერვისები",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 12,
+    "fields": {
+      "name": "ტელევიზორები, ფოტო, ვიდეო, აუდიო, სათამაშო კონსოლები",
+      "parent": null
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 13,
+    "fields": {
+      "name": "ციფრული კამერის აქსესუარები",
+      "parent": 12
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 14,
+    "fields": {
+      "name": "სახლის ვიდეო კამერები ",
+      "parent": 12
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 15,
+    "fields": {
+      "name": "მანქანის ვიდეო რეგისტრატორები ",
+      "parent": 12
+    }
+  },
+  {
+    "model": "store.Category",
+    "pk": 16,
+    "fields": {
+      "name": "სათამაშო კონსოლები, ვიდეო თამაშები",
+      "parent": 12
+    }
+  }
+]

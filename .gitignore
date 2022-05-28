@@ -148,6 +148,7 @@ __migrations/*
 .dmypy.json
 dmypy.json
 api/static
+api/media/photos
 # Pyre type checker
 .pyre/
 

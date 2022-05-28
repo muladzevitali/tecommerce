@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from config.env import env
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -16,7 +17,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'drf_yasg',
-    "apps.user"
+    "apps.user",
+    "apps.store"
 ]
 
 MIDDLEWARE = [
@@ -103,6 +105,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+MEDIA_ROOT = BASE_DIR.joinpath('media')
+MEDIA_URL = 'media/'
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR.joinpath("static")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

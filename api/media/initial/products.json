@@ -1,0 +1,42 @@
+[
+  {
+    "model": "store.Product",
+    "pk": 1,
+    "fields": {
+      "name": "Apple iPhone 13 Pro Max 512GB Alpine Green",
+      "image": "photos/products/iphone-13.jpg",
+      "description": "General Information\nBrand:\nXiaomi\nSeries:\nRedmi\nModel/PN:\nRedmi 10\nGeneral",
+      "price": 29.65,
+      "stock": 100,
+      "is_available": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "store.Product",
+    "pk": 2,
+    "fields": {
+      "name": "Kleurboek - 20 kleuren",
+      "image": "photos/products/product-single__img-2.jpg",
+      "description": "<p>Spuitkurk op basis van natuurlijke kurkkorrels en acrylaat bindmiddel voor binnen- en\n                            buitentoepassing.</p>\n                        <p>• korrelgrootte: 0,5 - 1mm</p>\n                        <p>Verbruik: 2 L/m2 in 3 lagen. <br>Verwerking: spuitkop 6mm op 4,5 bar.</p>",
+      "price": 29.65,
+      "stock": 30,
+      "is_available": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "store.Product",
+    "pk": 3,
+    "fields": {
+      "name": "PVC Afdekfolie",
+      "image": "photos/products/product-single__img-3.jpg",
+      "description": "<p>Spuitkurk op basis van natuurlijke kurkkorrels en acrylaat bindmiddel voor binnen- en\n                            buitentoepassing.</p>\n                        <p>• korrelgrootte: 0,5 - 1mm</p>\n                        <p>Verbruik: 2 L/m2 in 3 lagen. <br>Verwerking: spuitkop 6mm op 4,5 bar.</p>",
+      "price": 16.65,
+      "stock": 30,
+      "is_available": true,
+      "category": 3
+    }
+  }
+]
+

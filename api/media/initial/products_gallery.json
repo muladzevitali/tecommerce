@@ -1,0 +1,34 @@
+[
+  {
+    "model": "store.ProductGallery",
+    "pk": 1,
+    "fields": {
+      "image": "photos/products/iphone-13.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "store.ProductGallery",
+    "pk": 2,
+    "fields": {
+      "image": "photos/products/iphone-13.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "store.ProductGallery",
+    "pk": 3,
+    "fields": {
+      "image": "photos/products/iphone-13.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "store.ProductGallery",
+    "pk": 4,
+    "fields": {
+      "image": "photos/products/iphone-13.jpg",
+      "product": 1
+    }
+  }
+]
