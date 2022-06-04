@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tecommerce</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_passwd">Forgot?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="tec">TEC</string>
+    <string name="ommerce">OMMERCE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_passwd">Confirm Password</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_city">Select City</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="address">Address</string>
+    <string name="empty_filed">This field can not be empty</string>
+    <string name="invalid_email">Please enter the valid email</string>
+    <string name="invalid_password">Password too weak</string>
+    <string name="max_length">This field can not take more than %1$d characters</string>
+    <string name="password_validation">Password must contain\n\n• At least 1 digit\n• At least 1 lower case letter\n• At least 1 upper case letter\n• No white spaces\n• At least 7 characters</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="registration_succeed">Successfully Registered</string>
+    <string name="sending_data">Sending data</string>
+    <string name="registration_error">Registration Failed</string>
+</resources>

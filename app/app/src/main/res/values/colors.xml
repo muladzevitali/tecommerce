@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="editText_text_color_active">#455A64</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#546E7A</color>
+    <color name="primaryLightColor">#819CA9</color>
+    <color name="primaryDarkColor">#29434E</color>
+    <color name="secondaryColor">#90CAf9</color>
+    <color name="secondaryLightColor">#C3fDff</color>
+    <color name="secondaryDarkColor">#5D99C6</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="editText_background_active">#E8EAf6</color>
+    <color name="editText_background_inactive">#F1F1F1</color>
+    <color name="box_outline_color">@color/secondaryDarkColor</color>
+    <color name="text_input_hint_color">#37474f</color>
+</resources>
