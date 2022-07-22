@@ -58,7 +58,7 @@ DATABASES = {
     }
 }
 SWAGGER_SETTINGS = {
-    'VALIDATOR_URL': 'http://localhost:8000',
+    'VALIDATOR_URL': 'http://localhost:8002',
 }
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -107,7 +107,7 @@ USE_L10N = True
 USE_TZ = True
 
 MEDIA_ROOT = BASE_DIR.joinpath('media')
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR.joinpath("static")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
